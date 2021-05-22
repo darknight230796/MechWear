@@ -7,7 +7,9 @@ const data = {
             image:'/images/p1.jpg',
             price:1200,
             rating: 4.5,
-            numReviews : 80
+            numReviews : 80,
+            description : 'Perfect for gym.',
+            countInStock : 45
         },
         {
             _id:'2',
@@ -16,7 +18,9 @@ const data = {
             image:'/images/p2.jpg',
             price:1300,
             rating: 4.5,
-            numReviews : 134
+            numReviews : 134,
+            description : 'Perfect for gym.',
+            countInStock : 45
         },
         {
             _id:'3',
@@ -25,7 +29,9 @@ const data = {
             image:'/images/p3.jpg',
             price:1150,
             rating: 4.5,
-            numReviews : 167
+            numReviews : 167,
+            description : 'Perfect for gym.',
+            countInStock : 45
         },
         {
             _id:'4',
@@ -34,7 +40,9 @@ const data = {
             image:'/images/p4.jpg',
             price:1520,
             rating: 5,
-            numReviews : 180
+            numReviews : 180,
+            description : 'Perfect for gym.',
+            countInStock : 45
         },
         {
             _id:'5',
@@ -43,7 +51,9 @@ const data = {
             image:'/images/p5.jpg',
             price:1250,
             rating: 4.5,
-            numReviews : 189
+            numReviews : 189,
+            description : 'Perfect for gym.',
+            countInStock : 45
         },
         {
             _id:'6',
@@ -52,7 +62,9 @@ const data = {
             image:'/images/p6.jpg',
             price:1600,
             rating: 5,
-            numReviews : 156
+            numReviews : 156,
+            description : 'Perfect for gym.',
+            countInStock : 0
         },
     ]
 }
