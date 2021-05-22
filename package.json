@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/darknight230796/MechWear#readme",
   "dependencies": {
+    "es6": "0.0.7",
+    "esm": "^3.2.25",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.23.2"
   }
 }
