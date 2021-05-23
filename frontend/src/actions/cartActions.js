@@ -2,7 +2,7 @@ import Axios from 'axios';
 import { CART_ADD_ITEM, CART_REMOVE_ITEM } from "../constants/cartConstants";
 
 export const addToCart = (productID,qty) => async(dispatch, getState) =>{
-    const {data} = await Axios.get(`/api/products/${productID}`);
+    const {data} = await Axios.get(`https://succulent-sunrise-leo.glitch.me//api//products//${productID}`);
     dispatch({
         type: CART_ADD_ITEM,
         payload: {

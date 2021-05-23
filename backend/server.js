@@ -1,7 +1,5 @@
 import express from 'express';
-//const express = require('express');
 import data from './data.js'
-//const data = require('./data.js'); 
 const app = express();
 
 app.get('/api/products/:id', (req,res)=>{
