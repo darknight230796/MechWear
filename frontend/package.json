@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy": "http://succulent-sunrise-leo.glitch.me/",
+  "proxy": "https://afternoon-plateau-32480.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
