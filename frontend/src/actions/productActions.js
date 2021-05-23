@@ -26,7 +26,7 @@ export const detailsProduct = (productId) => async (dispatch) => {
     payload: productId,
   });
   try {
-    const { data } = await Axios.get(`https://afternoon-plateau-32480.herokuapp.com//api/products/${productId}`);
+    const { data } = await Axios.get(`https://afternoon-plateau-32480.herokuapp.com//api//products//${productId}`);
     dispatch({ type: PRODUCT_DETAILS_SUCCESS, payload: data });
   } catch (error) {
     dispatch({

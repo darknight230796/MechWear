@@ -19,6 +19,7 @@
   "homepage": "https://github.com/darknight230796/MechWear#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
     "es6": "0.0.7",
     "esm": "^3.2.25",
     "express": "^4.17.1",
