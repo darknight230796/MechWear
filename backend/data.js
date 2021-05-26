@@ -15,7 +15,6 @@ const data = {
     ],
     products:[
         {
-            _id:'1',
             name:'MechWear Automaton',
             category:'Shoes',
             image:'/images/p1.jpg',
@@ -26,7 +25,6 @@ const data = {
             countInStock : 45
         },
         {
-            _id:'2',
             name:'MechWear Combustion',
             category:'Shoes',
             image:'/images/p2.jpg',
@@ -37,7 +35,6 @@ const data = {
             countInStock : 45
         },
         {
-            _id:'3',
             name:'MechWear Gear',
             category:'Shoes',
             image:'/images/p3.jpg',
@@ -48,7 +45,6 @@ const data = {
             countInStock : 45
         },
         {
-            _id:'4',
             name:'MechWear Velocity',
             category:'Shoes',
             image:'/images/p4.jpg',
@@ -59,7 +55,6 @@ const data = {
             countInStock : 45
         },
         {
-            _id:'5',
             name:'MechWear Vector',
             category:'Shoes',
             image:'/images/p5.jpg',
@@ -70,7 +65,6 @@ const data = {
             countInStock : 45
         },
         {
-            _id:'6',
             name:'MechWear Torque',
             category:'Shoes',
             image:'/images/p6.jpg',
