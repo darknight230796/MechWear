@@ -3,7 +3,11 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import userRouter from './routers/userRouter.js';
 import productRouter from './routers/productRouter.js';
+import dotenv from 'dotenv';
+dotenv.config();
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
 app.use(cors()); // include before other routes
 mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/mechwear',{
     useNewUrlParser:true,
