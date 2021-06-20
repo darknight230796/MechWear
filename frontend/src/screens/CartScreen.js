@@ -18,7 +18,7 @@ export default function CartScreen(props) {
   }, [dispatch, productId, qty]);
   const removeFromCartHandler = (id) => {
     dispatch(removeFromCart(id));
-  };
+  };//
   const checkoutHandler = () =>{
     props.history.push('/signin?redirect=shipping');
   };

@@ -16,7 +16,7 @@ export default function OrderScreen(props) {
   const { loading:loadingPay, error: errorPay, success: successPay } = orderPay;
 
   const dispatch = useDispatch();
-  useEffect(() => {
+  useEffect(() => {//
     const addPayPalScript = async () => {
       const { data } = await axios.get("/api/config/paypal");
       const script = document.createElement("script");

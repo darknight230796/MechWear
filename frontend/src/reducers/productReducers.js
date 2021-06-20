@@ -21,7 +21,7 @@ export const productListReducers = (
     default:
       return state;
   }
-};
+};//
 
 export const productDetailsReducer = (
   state = { product: {}, loading: true },

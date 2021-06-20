@@ -14,7 +14,7 @@ export default function RegisterScreen(props){
     const userRegister = useSelector((state)=> state.userRegister);
     const {userInfo, loading,error} = userRegister;
     const redirect = props.location.search? props.location.search.split('=')[1]:'/';
-
+//
     const dispatch = useDispatch();
     const submitHandler = (e) =>{
         e.preventDefault();

@@ -20,7 +20,7 @@ export default function ShippingAddressScreen(props) {
     e.preventDefault();
     dispatch(saveShippingAddress({fullName,address,city,state,postalCode}));
     props.history.push('/payment');
-  };
+  };//
   return (
     <div>
       <CheckoutSteps step1 step2></CheckoutSteps>
