@@ -1,8 +1,9 @@
 import Axios from 'axios';
+import { BACKEND_URL } from '../constants/backendURL';
 import { CART_ADD_ITEM, CART_REMOVE_ITEM, CART_SAVE_PAYMENT_METHOD, CART_SAVE_SHIPPING_ADDRESS } from "../constants/cartConstants";
 //
 export const addToCart = (productID,qty) => async(dispatch, getState) =>{
-    const {data} = await Axios.get(`/api/products/${productID}`);
+    const {data} = await Axios.get(`${BACKEND_URL}api/products/${productID}`);
     dispatch({
         type: CART_ADD_ITEM,
         payload: {
