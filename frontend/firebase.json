@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [ {
+      "source": "/api/**",
+      "destination": "https://afternoon-plateau-32480.herokuapp.com/api/**",
+      "type": 301
+    }]
+  }
+}
