@@ -2,9 +2,9 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = function(app) {
   app.use(
-    '/api',
+    '/api/products',
     createProxyMiddleware({
-      target: 'https://afternoon-plateau-32480.herokuapp.com/',
+      target: 'https://afternoon-plateau-32480.herokuapp.com/api/products',
       changeOrigin: true,
     })
   );
